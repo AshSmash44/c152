@@ -1,0 +1,17 @@
+<!DocType HTML>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="moveBox.js"></script>
+        <script src="box.js"></script>
+        <title>plane simulator</title>
+    </head>
+    <body>
+        <a-scene background="color:#b3e5f5">
+            <a-camera position="0 0 5"></a-camera>
+            <a-entity position="0 0 0" rotation="0 0 0" move-box moveZ moveY>
+                <a-box></a-box>
+            </a-entity>
+        </a-scene>
+    </body>
+</html>
